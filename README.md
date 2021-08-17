@@ -23,9 +23,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Troughtout my work in financial services there was a clear necessity to open alot of word docs and printing them to their pdf form. However in my current employer this was done by hand. This little piece of software simplys does that automaticaly. In this specific case the word doc that is gonna be printed is located in a server and their corresponding names will now populated several drop down menus, enabling the user to select witch document in the servers folder he wants to print.
+Throughout my work in financial services, there was a clear necessity to open a lot of word docs and printing them to their pdf form. However, in my current employer, this was done by hand. This little piece of software simply does that automatically. In this specific case, the word doc that is gonna be printed is located in a server and their corresponding names will now populate several drop-down menus, enabling the user to select which document in the server's folder he wants to print.
 
-Aditionally the software will open said work doc and will find a piece of text specficif in the code (that will be the same for all the word docs in the server folder) and replace it with what the user inputs into a comboBox. This is done by this simple function:
+Additionally, the software will open said work doc and will find a piece of text specified in the code (that will be the same for all the word docs in the server folder) and replace it with what the user inputs into a ComboBox. This is done by this simple function:
 
                 findandreplace(wordapp, "xxxx", comboBox6.Text);
                 findandreplace(wordapp, "22/10/2019", textBox2.Text);
@@ -48,7 +48,7 @@ The population of the comboBox is done when the form loads:
             }
         }
 
-After both inputs are writen in their corresponding comboBoxes it is required for the user to locate where the pdf shall be exported. I took the liberty to create a button
+After both inputs are written in their corresponding combo boxes it is required for the user to locate where the pdf shall be exported. I took the liberty to create a button
 
 
      private void button2_Click(object sender, EventArgs e)
@@ -63,7 +63,7 @@ After both inputs are writen in their corresponding comboBoxes it is required fo
             }
         }
 
-The click of the "export" button the trigger a loop of this function:
+The click of the "export" button triggers a loop of this function:
 
         {
             createworddocument($"\\\\SERVIDOR\\{comboBox1.Text}", $"{textBox3.Text}\\{comboBox1.Text}");
@@ -82,7 +82,7 @@ The click of the "export" button the trigger a loop of this function:
             }
             else
 
-The performance of the software sometimes isn't perfect. I assume that it only happnes due to the loop not actully being written as a proper loop, but instead as cycle done trough else's.
+The performance of the software sometimes isn't perfect. I assume that it only happens due to the loop not being written as a proper loop, but instead, as a cycle done through else's. 
 
 For a more visual understanding please refer to the section "Usage".
 
