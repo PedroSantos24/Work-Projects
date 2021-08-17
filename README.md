@@ -100,6 +100,7 @@ For a more visual understanding please refer to the section "Usage".
   <img width="" height="" src="https://i.imgur.com/KgUdgBG.jpeg">
 </p>
 
+This is a visual representation. To run it you need to download the project as ZIP and open the project in visual studio. From there either press F5 and run it or compile and use the executable version.
 
 
 [![Linkedin Badge](https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pedroguedes21/)
